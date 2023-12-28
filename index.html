@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Gestion Patrimoine</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Télécom</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          BP 2105 -3, Bd G. Pompidou - Djibouti
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">De Dimanche à Jeudi: 8h à 17h</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+253 21358585</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="contact@djtelecom.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">contact@djtelecom.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logodj.svg" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Missions</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Notion de base</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Processus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Procédures</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <!-- <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div> -->
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Acceuil</span>
+
+        <span class="text text-2" aria-hidden="true">Acceuil</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo1.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Djibouti Télécom</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Chaque jour plus proche de VOUS
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+               Opérateur de télécommunications à Djibouti 
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir Plus</span>
+
+              <span class="text text-2" aria-hidden="true">Voir Plus</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Djibouti Télécom</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+               Chaque jour plus proche de VOUS
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+               Créé en 1999 par la fusion du service des télécommunications de l'Office des Postes et Télécommunications (OPT) et de la Société des Télécommunications Internationales de Djibouti (STID).
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir Plus</span>
+
+              <span class="text text-2" aria-hidden="true">Voir Plus</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo3.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Djibouti Télécom</p>
+
+            <h1 class="display-1 hero-title slider-reveal"> 
+               Chaque jour plus proche de VOUS
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+               Notre vision est d'être le point d’interconnexion entre les pays d’Afrique de l’Est, Centrale et du Sud vers l’Europe, le Moyen-Orient et l’Asie
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir Plus</span>
+
+              <span class="text text-2" aria-hidden="true">Voir Plus</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/patrimoine.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Patrimoine</span>
+        </a>
+
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 " aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Missions</p>
+
+          <h2 class="headline-1 section-title text-center">Rappel Missions du département de Gestion du Patrimoine</h2>
+
+          <p class="section-text text-center">
+              MISSIONS, PROCESSUS & INTERVENANT
+          </p>
+          <br/>
+          <br/>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/processus.jpeg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h4 class="title-4 card-title">
+                    <a href="#">Processus</a>
+                  </h4>
+
+                  <p>Au sein du Département de la Gestion du Patrimoine (DGP), la gestion des immobilisations repose sur un ensemble de processus clés. Le premier processus est assuré par le Service d'Identification et de Suivi des Immobilisations (SISI), qui prend en charge la réception, l'identification et l'étiquetage des immobilisations nouvellement acquises. Ce processus garantit une traçabilité efficace des actifs dès leur arrivée dans l'inventaire.
+
+                    Un deuxième processus crucial est pris en charge par le Service de Suivi de la Maintenance (SSM). Ce service s'occupe du suivi de la maintenance des immobilisations, veillant à leur bon état de fonctionnement tout au long de leur cycle de vie. La maintenance préventive et corrective est planifiée et mise en œuvre pour assurer la durabilité des actifs.
+                    
+                    Enfin, le Service de Gestion des Cessions, Rebuts et Désinvestissements (SGCRD) intervient dans le processus de désinvestissement. Ce service gère les cessions d'actifs, les mises au rebut et les désinvestissements. Il s'assure que ces opérations sont réalisées conformément aux politiques établies et supervise le retrait d'actifs du patrimoine de manière appropriée.</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/intervenant2.webp" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Intervenant</a>
+                  </h3>
+
+                  <p>Le Service d'Identification et de Suivi des Immobilisations (SISI) est en charge de la réception initiale et de l'étiquetage des actifs, assurant une introduction correcte dans le système.
+
+                    Le Service de Suivi de la Maintenance (SSM) intervient régulièrement pour garantir le bon fonctionnement des actifs à travers des activités de maintenance planifiées. Les techniciens et ingénieurs de ce service contribuent à prolonger la durée de vie utile des immobilisations.
+                    
+                    Le Service de Gestion des Cessions, Rebuts et Désinvestissements (SGCRD) est responsable de la gestion des processus de désinvestissement. Les agents de ce service supervisent les opérations de cession, de mise au rebut et de désinvestissement, collaborant avec d'autres départements selon les besoins</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/mission2.webp" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Missions</a>
+                  </h3>
+
+                  <p>Le Département de Gestion du Patrimoine est chargé de la gestion du patrimoine immobilisé de la société. Il a pour mission principale de mettre en œuvre les processus de gestion du patrimoine conformément à la cartographie des processus et aux procédures de gestion des recensements et de l’inventaire des immobilisations qui lui sont associés. </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+         
+          <a href="./mission.html" class="btn btn-primary" >
+               <span class="text text-1">Voir Plus</span>
+ 
+               <span class="text text-2" aria-hidden="true">Voir Plus</span>
+           </a>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about " aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle text-center" id="about-label">Notion de base</p>
+
+            <h2 class="headline-1 section-title text-center">Inventorier et Notion d'immobilisations</h2>
+
+            <p class="section-text">
+               Inventorier = Action consistant à identifier physiquement et à compter des biens quel que soit leur nature, en vue 
+               de les rapprocher avec la situation théorique (comptable).
+            </p>
+
+
+            <a href="/notion.html" class="btn btn-primary">
+              <span class="text text-1">Voir Plus</span>
+
+              <span class="text text-2" aria-hidden="true">Voir Plus</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/image1.jpeg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/image2.jpeg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+
+          </figure>
+
+
+        </div>
+      </section>
+
+
+      <!-- 
+          -Menu Processus
+       -->
+       <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+  
+            <p class="section-subtitle text-center label-2">Processus</p>
+  
+            <h2 class="headline-1 section-title text-center">3. Les différents processus du dispositif de gestion du patrimoine immobilisé et les ressources documentaires correspondantes</h2>
+  
+            <ul class="grid-list">
+  
+            <table border="1">
+                 <tr>
+                      <th colspan="3">3.1.	Activités/Tâches du SISI</th>
+                 </tr>
+                 <tr>
+                    <th colspan="3">Réception et Identification</th>
+               </tr>
+                 <tr>
+                 <td>Préparation d’une fiche immobilisations pour chaque acquisition d’immobilisations</td>
+                 <td><a href=""><mark>Procédure de gestion des fiches immobilisations</mark></a></td>
+                 </tr>
+                 <tr>
+                 <td>Confirmation de chaque réception d’immobilisations par le service demandeur et la nouvelle entité de gestion de patrimoine</td>
+                 <td><a href=""><mark>Procédure de gestion des réceptions des immobilisations</mark></a></td>
+                 </tr>
+                 <tr>
+                 <td>Affectation et localisation des immobilisations nouvellement acquises</td>
+                 <td><a href=""><mark>Procédure de gestion d'Affectation et localisation</mark></a></td>
+                 </tr>
+                 <tr>
+                      <td>Etiquetage des immobilisations nouvellement acquises</td>
+                      <td><a href=""><mark>Procédure de Gestion de l’étiquetage des immobilisations nouvellement acquises</mark></a></td>
+                 </tr>
+            </table>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                 <table border="1">
+                      <tr>
+                      <th colspan="3">3.2. Activités/Tâches du SSM</th>
+                      </tr>
+                      <tr>
+                         <th colspan="3">Suivi de la maintenance</th>
+                     </tr>
+                      <tr>
+                      <td>Suivi des contrats de maintenance</td>
+                      <td><a href=""><mark>Procédure de suivi des contrats de maintenance</mark></a></td>
+                      </tr>
+                      <tr>
+                      <td>Planification et Suivi des actions de maintenance</td>
+                      <td><a href=""><mark>Procédure de suivi de la maintenance (Planification et Suivi)</mark></a></td>
+                      </tr>
+                      <tr>
+                           <td>Protection des immobilisations</td>
+                           <td><a href=""><mark>Spécifications essentielles de sécurité  </mark></a></td>
+                      </tr>
+                 </table>
+  
+                </div>
+              </li>
+  
+              <table border="1">
+                 <tr>
+                 <th colspan="2">3.1. Activités/Tâches du SISI</th>
+                 </tr>
+                 <tr>
+                    <th colspan="2">Suivi des immobilisations</th>
+                    </tr>
+                 <tr>
+                 <td>Mise en service des immobilisations</td>
+                 <td><a href=""><mark>Procédure de gestion de la mise en service des immobilisations </mark></a></td>
+                 </tr>
+                 <tr>
+                 <td>Gestion des mouvements et des déplacements</td>
+                 <td><a href=""><mark>Gestion des mouvements et déplacements des immobilisations</mark></a></td>
+                 </tr>
+                 <tr>
+                 <td>Recensement et inventaire des immobilisations</td>
+                 <td><a href=""><mark>Procédure de gestion des recensements et de l’inventaire des immobilisations</mark></a></td>
+                 </tr>
+                
+            </table>
+            
+            <li>
+                 <div class="menu-card hover:card">
+                  <table border="1">
+                       <tr>
+                       <th colspan="3">3.3.	Activités/Tâches du SGCRD</th>
+                       </tr>
+                       <tr>
+                         <th colspan="3">Désinvestissement, cession et mise au rebut</th>
+                         </tr>
+                       <tr>
+                       <td>Identification des immobilisations à mettre au rebut &
+                         <br/>Cessions et mise au rebut
+                       </td>
+                       <td><a href=""><mark>Procédure de gestion des cessions</mark></a></td>
+                       </tr>
+                       <tr>
+                           <td>Désinvestissement des immobilisations cédées et déclarées au rebut &
+                              <br/>Suivi de l’état des immobilisations au rebut
+                           </td>
+                           <td><a href=""><mark>Procédure de gestion des déclarations des immobilisations au rebut</mark></a></td>
+                      </tr>
+                  </table>
+   
+                 </div>
+               </li>
+            </ul>
+  
+            <p class="menu-text text-center">
+              Vous pouvez télécharges les documents marquées en jaune :)
+            </p>
+  
+           
+  
+          </div>
+        </section>
+  
+  
+  
+
+      <!-- 
+        - #MENU Procédures
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Procédures</p>
+
+          <h2 class="headline-1 section-title text-center">4. Les différentes procédures de gestion de l’inventaire physique des immobilisations et les ressources documentaires correspondantes</h2>
+
+          <ul class="grid-list">
+
+          <table border="1">
+               <tr>
+                    <th colspan="3">4.1. Gestion de l’inventaire physique</th>
+               </tr>
+               <tr>
+               <td>Description de la solution Inventif/Movintory appliquée pour la réalisation des inventaires physiques</td>
+               <td><a href=""><mark>la gestion de l'inventaire physique</mark></a></td>
+               </tr>
+               <tr>
+               <td>Description détaillée des tâches effectuées avec Inventif pour la réalisation des inventaires physiques</td>
+               <td><a href=""><mark>description détaillée des tâches</mark></a></td>
+               </tr>
+               <tr>
+               <td>Instructions de l’inventaire physique 2021</td>
+               <td><a href=""><mark>Instructions de l'inventaire physique</mark></a></td>
+               </tr>
+               <tr>
+                    <td>Compléments aux Instructions d’Inventaire (Rappels aux inventoristes des règles de base pour le recensement des immobilisations)</td>
+                    <td><a href=""><mark>compléments aux Instructions d'inventaire</mark></a></td>
+               </tr>
+          </table>
+
+            <li>
+              <div class="menu-card hover:card">
+
+               <table border="1">
+                    <tr>
+                    <th colspan="3">4.2. Procédures de gestion de la base de données Inventif</th>
+                    </tr>
+                    <tr>
+                    <td>Procédure de création d’Ets/Sites/Niveaux/Locaux dans la base de données Inventif</td>
+                    <td><a href=""><mark>Procédure de création de locaux</mark></a></td>
+                    </tr>
+                    <tr>
+                    <td>Procédure de connexion à la base de données Inventif et transfert des biens recensés dans la base</td>
+                    <td><a href=""><mark>Procédure de connexion à la base</mark></a></td>
+                    </tr>
+                    <tr>
+                         <td>Procédure d’Assemblage des données Inventif et Extraction vers un Tableau Excel</td>
+                         <td><a href=""><mark>Procédure d'extration </mark></a></td>
+                    </tr>
+                    <tr>
+                         <td>Procédure d’Exportation des données de la base Inventif vers un PDA</td>
+                         <td><a href=""><mark>Procédure d'exportation </mark></a></td>
+                    </tr>
+                    <tr>
+                         <td>Procédure de Mise à Jour de l'Arbre des Lieux selon la Codification 2019 (pour l’intégration dans Sage)</td>
+                         <td><a href=""><mark>Procédure de mise à jour</mark></a></td>
+                    </tr>
+                   
+               </table>
+
+              </div>
+            </li>
+
+            <table border="1">
+               <tr>
+               <th colspan="2">4.3. Les ressources de base pour la réalisation des inventaires physiques</th>
+               </tr>
+               <tr>
+               <td>Un arbre des lieux reflétant la réalité du terrain (établissements, sites, étages...)</td>
+               <td><a href=""><mark>ArbresDesLieux.21.1 
+                    <br/>ArbresDesLieuxCodification
+               </mark></a></td>
+               </tr>
+               <tr>
+               <td>Un arbre des catégories (typologie des immobilisations correspondant au domaine d'activités de l’entreprise : matériel informatique, téléphonie...)</td>
+               <td><a href=""><mark>Categories 2022</mark></a></td>
+               </tr>
+               <tr>
+               <td>Des fiches de biens détaillées à saisir sur le PDA (marque, modèle, numéro de série…)</td>
+               <td><a href=""><mark>Rappels sur la saisie de données</mark></a></td>
+               </tr>
+               <tr>
+                    <td>Une Charte de collage des étiquettes de lieux</td>
+                    <td><a href=""><mark>Charte de collage des étiquettes des lieux</mark></a></td>
+               </tr>
+               <tr>
+                    <td>Une Charte de collage des étiquettes des biens</td>
+                    <td><a href=""><mark>Charte de collage des étiquettes des biens</mark></a></td>
+               </tr>
+          </table>
+          
+          <li>
+               <div class="menu-card hover:card">
+ 
+                <table border="1">
+                     <tr>
+                     <th colspan="3">5.	Base de connaissances à acquérir - Outils bureautiques à maitriser</th>
+                     </tr>
+                     <tr>
+                     <td>Excel, logiciel tableur et d'analyse de données de la suite bureautique Microsoft Office</td>
+                     <td><a href=""><mark>Base de connaissances - Outils bureautiques</mark></a></td>
+                     </tr>
+                     <tr>
+                         <td>Word, application de traitement de texte qui fait partie de la suite Microsoft Office</td>
+                         <td><a href=""><mark>Base de connaissances - Outils bureautiques</mark></a></td>
+                    </tr>
+                </table>
+ 
+               </div>
+             </li>
+          </ul>
+
+          <p class="menu-text text-center">
+            Vous pouvez télécharges les documents marquées en jaune :)
+          </p>
+
+
+        </div>
+      </section>
+
+
+
+
+    
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Autres</p>
+
+          <h2 class="headline-1 section-title">Plus d'informations !!</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/fibre.jpeg" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Fibre Optique</h3>
+
+                <p class="label-1 card-text">Djibouti Telecom va se connecter à un neuvième système sous-marin de fibre optique</p>
+                <p><a href="https://www.agenceecofin.com/infrastructures/2402-95342-djibouti-telecom-va-se-connecter-a-un-neuvieme-systeme-sous-marin-de-fibre-optique">Voir</a></p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/telecom.jpeg" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Télécommunications</h3>
+
+                <p class="label-1 card-text">Dans le cadre de la réhabilitation des infrastructures de télécommunications afin de mieux répondre aux attentes de la clientèle</p>
+                <p><a href="http://www.ministere-finances.dj/EF/Economie_Finances/telcomm02.htm">Voir</a></p>
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/carrefour.jpeg" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Internet Mondial</h3>
+
+                <p class="label-1 card-text">Djibouti, au cœur de l’internet mondial</p>
+                <p><a href="https://africa-news-agency.com/djibouti-au-coeur-de-linternet-mondial/">Voir</a></p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/d-money.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">D-money</h3>
+
+                <p class="label-1 card-text">Innovation : Djibouti Télécom développe « D-Money »</p>
+                <p><a href="https://www.digitalbusiness.africa/innovation-djibouti-telecom-developpe-d-money-le-nouveau-service-de-paiement-en-ligne-pour-ouvriers-portuaires/">Voir</a></p>
+
+              </div>
+            </li>
+
+          </ul>
+
+         
+        </div>
+      </section>
+
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/djiboutifooter.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/featuredimage.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+               BP 2105 -3, Bd G. Pompidou - Djibouti
+          </address>
+
+          <a href="contact@djtelecom.com" class="body-4 contact-link">contact@djtelecom.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Numéro : +253 21358585 </a>
+
+          <p class="body-4">
+            Ouvert: 8h à 17h du Dimanche à Jeudi 
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Lien Rapide :</p>
+
+          <p class="label-1">
+            <a href="http://bss.djibtel.dj/mobile/">Mobile</a>
+            <a href="http://bss.djibtel.dj/internet/">Internet</a>
+            <a href="http://bss.djibtel.dj/nos-produits/">Nos Produits</a>
+            <a href="http://bss.djibtel.dj/pro/">Professionnels</a>
+            <a href="https://international.djiboutitelecom.dj/">International</a>
+            <a href="https://my.djiboutitelecom.dj/user/">Espace clients</a>
+            <a href="https://d-money.dj/">D-Money</a>
+          </p>
+<!-- 
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form> -->
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Missions</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Notion de base</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Processus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Procédures</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.facebook.com/DjibtelecomSA" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/Djibtelecom" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/@djiboutitelecom227" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="https://www.google.com/maps/dir//Djibouti+Telecom,+QUARTIER+4+DJIBOUTI,+Djibouti/@11.6893057,42.6726564,11z/data=!4m12!1m2!2m1!1sdjibouti+telecom!4m8!1m0!1m5!1m1!1s0x1622d5befcb9b2f3:0x46f7ebab3e7f1d74!2m2!1d42.590275!2d11.825138!3e3?entry=ttu" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Djibouti Télécom. All Rights Reserved | Crafted by <a href="https://github.com/maha22i/projet-idriss"
+            target="_blank" class="link">Idriss Gabayta</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

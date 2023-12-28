@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Gestion Patrimoine - Notion de base</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Télécom</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          BP 2105 -3, Bd G. Pompidou - Djibouti
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">De Dimanche à Jeudi: 8h à 17h</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+253 21358585</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="contact@djtelecom.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">contact@djtelecom.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logodj.svg" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/mission.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Missions</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Notion de base</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Processus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Procédures</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Acceuil</span>
+
+        <span class="text text-2" aria-hidden="true">Acceuil</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo1.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Djibouti Télécom</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Chaque jour plus proche de VOUS
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+               Opérateur de télécommunications à Djibouti 
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir Plus</span>
+
+              <span class="text text-2" aria-hidden="true">Voir Plus</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Djibouti Télécom</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+               Chaque jour plus proche de VOUS
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+               Créé en 1999 par la fusion du service des télécommunications de l'Office des Postes et Télécommunications (OPT) et de la Société des Télécommunications Internationales de Djibouti (STID).
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir Plus</span>
+
+              <span class="text text-2" aria-hidden="true">Voir Plus</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo3.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Djibouti Télécom</p>
+
+            <h1 class="display-1 hero-title slider-reveal"> 
+               Chaque jour plus proche de VOUS
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+               Notre vision est d'être le point d’interconnexion entre les pays d’Afrique de l’Est, Centrale et du Sud vers l’Europe, le Moyen-Orient et l’Asie
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Voir Plus</span>
+
+              <span class="text text-2" aria-hidden="true">Voir Plus</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/patrimoine.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Patrimoine</span>
+        </a>
+
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 " aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Notions de base</p>
+
+          <h2 class="headline-1 section-title text-center">2. Notions de base	</h2>
+
+          <h3>2.1.Inventorier</h3>
+          <br>
+          <p>
+            Inventorier = Action consistant à identifier physiquement et à compter des biens quel que soit leur nature, en vue de les rapprocher avec la situation théorique (comptable).
+            <br/>
+            Selon le Code de Commerce Djiboutien, l’inventaire est une opération obligatoire qui consiste à relever tous les éléments du patrimoine de l’entreprise, biens, créances et dettes de l’entreprise, en mentionnant la nature, la quantité et la valeur de chacun d’eux à la date de l’inventaire. Les données d’inventaire sont organisées et conservées de manière à justifier le contenu de chacun des éléments recensés du patrimoine.
+            <br/>
+            L’inventaire physique doit être effectué, au moins une fois par an, à la date de clôture de l’exercice comptable annuel.
+            <br/>
+            Toute entreprise doit procéder à l’inventaire physique de ses immobilisations corporelles (biens meubles et immeubles) à la clôture de l’exercice comptable.
+            <br/>
+            Cette procédure a pour but de mettre à jour les fichiers relatifs aux immobilisations, identifiées grâce à des codes d'immatriculation et d’évaluer la valeur des dépréciations réelles subies par ces actifs. L’objectif ultime de cette procédure de recensement est de rapprocher le fichier théorique des immobilisations avec le rapport établi lors de l'inventaire physique et de traiter le cas échéant les écarts
+            
+          </p>
+          <br>
+          <h3>2.2. Notion d’immobilisation</h3>
+          <br>
+          <p>
+            La notion d’immobilisation intègre l’ensemble des biens durables détenus par une entreprise sur plus d’un exercice comptable et qui ne sont pas destinés à la revente. 
+            Ces biens représentent des investissements engagés afin de développer le potentiel productif de l’entreprise.
+          </p>
+          <br>
+          <h4>2.2.1. Types d’immobilisations</h4>
+          <br>
+          <p>Trois catégories d’immobilisations sont mises en valeur par le plan comptable général :
+            <br>
+            <br>
+              <div style="margin-left: 60px;">
+                <ul>
+                  <li>•	Les immobilisations incorporelles : sont les biens immatériels, qui n’ont pas de substance physique, détenus par l’entreprise sur une durée supérieure à une année. 
+                    Parmi ces immobilisations figurent le fond commercial, les logiciels, le droit au bail, les brevets, les licences… ;</li>
+                    <li>
+                      •	Les immobilisations corporelles : englobent les biens tangibles destinés à être utilisés d’une manière durable durant le cycle d’exploitation de l’entreprise. On distingue dans cette catégorie les terrains, les constructions, le matériel industriel,
+                       les agencements et les installations techniques, le matériel de transport, les équipements de bureau… ;
+                    </li>
+                    <li>
+                      •	Les immobilisations financières : comprennent les titres financiers acquis par l’entreprise pour être détenus à long terme (titres de participation)
+                      ainsi que les droits de créances à plus d’un an (prêts, dépôts et cautionnements…).
+                    </li>
+                </ul>
+              </div>
+          </p>
+          <br>
+          <h4>2.2.2. Immobilisation ou charge : comment faire la différence ?</h4>
+          <br/>
+          <p>
+          Il convient de faire une distinction entre les dépenses devant être portées en charge et celles devant être comptabilisées en tant qu’immobilisations.
+          Les immobilisations constituent des investissements qui augmentent le patrimoine d’une entreprise et qui ont un potentiel de générer des avantages économiques futurs.
+          Les charges sont consommées durant l’exercice comptable et ne procurent pas des avantages futurs. Les biens de faible valeur (moins de 100.000 FD) sont généralement comptabilisés comme des charges.
+          </p>
+       
+          <br>
+          <h4>2.2.3. Cycle de vie d’une immobilisation</h4>
+          <br>
+          <p>
+            La comptabilité des immobilisations est la tenue précise des registres financiers de l’entreprise concernant les actifs. Elle détaille le cycle de vie d’un actif en cinq étapes différentes. Après l’achat initial, le cycle de vie de chaque immobilisation comprend au moins trois des cinq étapes ci-dessous :
+            <br> 
+            <br>
+              <div style="margin-left: 60px;">
+                    1.	Acquisition : une nouvelle immobilisation est inscrite dans les livres ;
+                  <br>
+                  2.	Amortissement : l’actif perd régulièrement de sa valeur, calculée selon une méthode particulière ;
+                  <br>
+                  3.	Réévaluation : évaluation pour enregistrer sa juste valeur marchande actuelle ;
+                  <br>
+                  4.	Dépréciation : également connue sous le nom de dévalorisation, il s’agit de la réduction de valeur enregistrée en raison d’événements ou de circonstances ;
+                  <br/>
+                  5.	Élimination : cession, vente, ou mise au rebut d’un actif à la fin de sa vie utile.
+              </div>
+
+          </p>
+          <br>
+          <h3>2.3. Notion d’amortissement : calcul, durée et méthodes</h3>
+          <br>
+          <h4>2.3.1. L’amortissement comptable</h4>
+          <br>
+          <p>
+            Par définition, un amortissement correspond à une constatation de perte de valeur d’un bien, du fait de son usage (usure physique), de l’évolution technique (obsolescence de l’actif) ou bien tout simplement du temps.
+             Il permet de corriger l’évaluation des immobilisations qui a été faite au titre de l’entrée dans le patrimoine de l’entreprise.
+          </p>
+          <br>
+          <h4>2.3.2. Les immobilisations amortissables</h4>
+          <br>
+          <p>
+            Une immobilisation est amortissable dès lors que l’utilisation qui va en être faite par l’entreprise est déterminable et que celle-ci soit limitée dans le temps. 
+            En principe, toutes les immobilisations corporelles sont amortissables, à l’exception des terrains et des œuvres d’art. 
+            <br>
+            Sont donc amortissables :
+            <br>
+                <div style="margin-left: 60px;">
+                  •	les constructions, installations générales, agencements,
+                <br>
+                •	les matériels et outillages industriels,
+                <br>
+                •	les matériels de transport, matériels de bureau et informatique,
+                <br>
+                •	le mobilier.
+                </div>
+            <br>
+            Certaines immobilisations incorporelles sont amortissables. C’est notamment le cas pour :
+            <br>
+                 <div style="margin-left: 60px;">
+                  •	les logiciels et coûts de développement,
+                  <br>
+                  •	les sites Internet (sous conditions),
+                  <br>
+                  •	les brevets d’inventions, les licences,
+                  <br>  
+                  •	et le fonds de commerce (sous conditions).
+                 </div>
+                 Les immobilisations financières ne sont pas amortissables. Elles peuvent toutefois faire l’objet d’une dépréciation.     
+          </p>
+          <br>
+        <h4>2.3.3. Les durées à utiliser pour calculer les amortissements</h4>
+        <br>
+        <p>
+          La durée d’amortissement d’une immobilisation doit correspondre à la durée réelle d’utilisation du bien par l’entreprise. 
+          Les durées les plus couramment admises par l’administration fiscale :
+          <br>
+          <div style="margin-left: 60px;">
+            •	matériel : entre 6 et 10 ans,
+            <br>
+            •	outillage : entre 5 et 10 ans,
+            <br>
+            •	matériel de transport : entre 4 et 5 ans,
+            <br>
+            •	mobilier : 10 ans,
+            <br>
+            •	matériel informatique (ordinateur notamment) : 3 ans,
+            <br>
+            •	brevets : 5 ans,
+            <br>
+            •	logiciels : 3 ans.
+
+          </div>
+          L’amortissement d’une immobilisation débute à compter de la mise en service du bien (date à laquelle l’immobilisation est en état de fonctionner selon l’utilisation prévue par la direction).
+          Plusieurs méthodes d’amortissements sont autorisées en comptabilité. Les principales d’entre elles étant l’amortissement linéaire, l’amortissement dégressif et l’amortissement variable.
+        </p>
+        <br>
+        <h4>2.3.4. Calcul selon la méthode de l’amortissement linéaire</h4>
+        <br>
+        <p>
+          L’amortissement linéaire est la méthode la plus couramment utilisée par l’entreprise. Il consiste à répartir de manière égale la perte de valeur des immobilisations de manière constante sur la durée de vie de ce dernier (il s’agit de la durée réelle d’utilisation telle qu’elle a été définie par l’entreprise).
+          Le taux est calculé comme suit : (100 / Nombre d’années de la durée de vie du bien) %.
+
+        </p>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/djiboutifooter.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/featuredimage.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+               BP 2105 -3, Bd G. Pompidou - Djibouti
+          </address>
+
+          <a href="contact@djtelecom.com" class="body-4 contact-link">contact@djtelecom.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Numéro : +253 21358585 </a>
+
+          <p class="body-4">
+            Ouvert: 8h à 17h du Dimanche à Jeudi 
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Lien Rapide :</p>
+
+          <p class="label-1">
+            <a href="http://bss.djibtel.dj/mobile/">Mobile</a>
+            <a href="http://bss.djibtel.dj/internet/">Internet</a>
+            <a href="http://bss.djibtel.dj/nos-produits/">Nos Produits</a>
+            <a href="http://bss.djibtel.dj/pro/">Professionnels</a>
+            <a href="https://international.djiboutitelecom.dj/">International</a>
+            <a href="https://my.djiboutitelecom.dj/user/">Espace clients</a>
+            <a href="https://d-money.dj/">D-Money</a>
+          </p>
+<!-- 
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form> -->
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="/mission.html" class="label-2 footer-link hover-underline">Missions</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Notion de base</a>
+          </li>
+
+          <li>
+            <a href="/index.html" class="label-2 footer-link hover-underline">Processus</a>
+          </li>
+
+          <li>
+            <a href="/index.html" class="label-2 footer-link hover-underline">Procédures</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.facebook.com/DjibtelecomSA" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/Djibtelecom" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/@djiboutitelecom227" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="https://www.google.com/maps/dir//Djibouti+Telecom,+QUARTIER+4+DJIBOUTI,+Djibouti/@11.6893057,42.6726564,11z/data=!4m12!1m2!2m1!1sdjibouti+telecom!4m8!1m0!1m5!1m1!1s0x1622d5befcb9b2f3:0x46f7ebab3e7f1d74!2m2!1d42.590275!2d11.825138!3e3?entry=ttu" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Djibouti Télécom. All Rights Reserved | Crafted by <a href="https://github.com/maha22i/projet-idriss"
+            target="_blank" class="link">Idriss Gabayta</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
